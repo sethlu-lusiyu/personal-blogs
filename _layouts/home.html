@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+  <!-- 👍 LikeBtn 放在这里（页面底部） -->
+  <hr />
+  <p>Enjoy the content? Click like below!</p>
+
+  <!-- LikeBtn.com BEGIN -->
+  <span class="likebtn-wrapper" data-theme="padded" data-ef_voting="push" data-identifier="HomePage_Seth"></span>
+  <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+  <!-- LikeBtn.com END -->
+
+</div>
