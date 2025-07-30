@@ -1,4 +1,3 @@
 ---
-title: A Quantitative Trading Blog
+layout: home
 ---
-
