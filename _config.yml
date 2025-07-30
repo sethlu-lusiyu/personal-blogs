@@ -1,1 +1,10 @@
-theme: minima
+title: "A Quantitative Trading Blog"
+author: "Seth Lu"
+description: "Exploring insights in Algorithmic Trading, Quantitative Finance, and Discretionary Trading."
+
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
