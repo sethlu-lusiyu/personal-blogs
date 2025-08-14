@@ -2,9 +2,10 @@ title: "A Quantitative Trading Blog"
 author: "Seth Lu"
 description: "Exploring Algorithmic Trading, Quantitative Finance, and Discretionary Trading."
 
-theme: minima
+theme: jekyll-theme-merlot
 
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
 
