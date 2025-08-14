@@ -1,12 +1,13 @@
-title: "Quantitative Trading Blog"
+title: "Seth Lu's Blog"
 author: "Seth Lu"
-description: "Experiments and thoughts on trading."
+description: "Experiments and thoughts on quantitative trading"
 
 theme: jekyll-theme-dinky
 
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
 
 
 
